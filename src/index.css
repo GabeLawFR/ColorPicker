@@ -31,6 +31,7 @@ body {
 
 #navbar div {
   padding: 5px;
+  font-size: 25px;
 }
 
 #colors-list {
@@ -51,7 +52,7 @@ body {
 }
 
 .selected {
-  border: 2px solid black;
+  border: 5px solid black;
 }
 
 /* colors */
