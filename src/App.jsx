@@ -20,7 +20,7 @@ const App = () => {
       <div id="colors-list">
         <Color color="yellow" setSelectedColor={setSelectedColor} isSelected={selectedColor === "yellow"}/>
         <Color color="orange" setSelectedColor={setSelectedColor} isSelected={selectedColor === "orange"}/>
-        <Color color="blue" setSelectedColor={setSelectedColor} isSelected={selectedColor === "blue"}/>
+        <Color color="blue" setSelectedColor={setSelectedColor} isSelected={selectedColor === "blue"}/>             
         <Color color="violet" setSelectedColor={setSelectedColor} isSelected={selectedColor === "violet"}/>
       </div>
     </div>
@@ -28,3 +28,4 @@ const App = () => {
 };
 
 export default App;
+
